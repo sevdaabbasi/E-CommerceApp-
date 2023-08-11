@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var currentTab: Tab = .Home
+   @State var currentTab: Tab = .Home
+   
+       
+   
+    
     
     init() {
         UITabBar.appearance().isHidden = true
@@ -17,6 +21,8 @@ struct ContentView: View {
     @Namespace var animation
     
     var body: some View {
+       
+        
         TabView (selection: $currentTab){
             
             Text("Home View")
