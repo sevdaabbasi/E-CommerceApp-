@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SignInScreenView: View {
     @State private var email: String = " "
+    @State private var password: String = " "
     var body: some View {
         ZStack {
             Color (.white).edgesIgnoringSafeArea(.all)
@@ -30,7 +31,7 @@ struct SignInScreenView: View {
                     Text("or get a link emailed to you")
                         .foregroundColor(Color.black.opacity(0.4))
                     
-                    TextField("password", text: $email)
+                    TextField("email", text: $email)
                         .font(.title3)
                         .padding()
                         .frame(maxWidth: .infinity)
@@ -38,8 +39,8 @@ struct SignInScreenView: View {
                         .cornerRadius(50.0)
                         .shadow(color: Color.black.opacity(0.12), radius: 60 , x: 0.0, y: 16)
                     
-                    TextField("Email", text: $email)
-                                 
+                    
+                    TextField("password", text: $password)
                         .font(.title3)
                         .padding()
                         .frame(maxWidth: .infinity)

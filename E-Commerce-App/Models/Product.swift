@@ -18,36 +18,36 @@ struct Product : Identifiable{
 }
 
 var prouductList = {
-    Product(name: "Product1",
+    Product(name: "Bej Salaş Takım",
             image: "images1",
             description: " ",
             supplier: "Moda",
-            price: 500),
-    Product(name: "Product2",
+            price: 500);
+    Product(name: "Beyaz Kimono",
             image: "images2",
             description: " ",
             supplier: "Moda",
-            price: 500),
-    Product(name: "Product3",
+            price: 500);
+    Product(name: "Kargo Cep Pantolon",
             image: "images3",
             description: " ",
             supplier: "Sefamerve",
-            price: 500),
-    Product(name: "Product4",
+            price: 500);
+    Product(name: "Pudra Müslim Elbise",
             image: "images4",
             description: " ",
             supplier: "Zara",
-            price: 500),
-    Product(name: "Product5",
+            price: 500);
+    Product(name: "Yeşil Kadın Elbisesi",
             image: "images5",
             description: " ",
             supplier: "Sefamerve",
-            price: 500),
-    Product(name: "Product6",
+            price: 500);
+    Product(name: "Bağlamalı Elbise",
             image: "images6",
             description: " ",
             supplier: "Kırmızı",
-            price: 500)
+            price: 500);
     
 }
 
