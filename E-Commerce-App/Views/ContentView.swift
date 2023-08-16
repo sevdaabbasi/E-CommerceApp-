@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
    @State var currentTab: Tab = .Home
-   
+   @StateObject var cartManager = CartManager()
        
    
     
@@ -25,13 +25,12 @@ struct ContentView: View {
         
         TabView (selection: $currentTab){
             
-            Text("Home View")
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color("kPrimary"))
-                .tag(Tab.Home)
+            HomePageView()
+            
+           
             Text("Search View")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color(red: 24, green: 0, blue: 0))
+                .background()
                 .tag(Tab.Search)
             Text("Notification View")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -105,6 +104,7 @@ func TabButton(tab: Tab) -> some View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(CartManager())
     }
 }
 

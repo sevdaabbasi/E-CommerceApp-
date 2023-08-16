@@ -17,37 +17,37 @@ struct Product : Identifiable{
     
 }
 
-var prouductList = {
+var prouductList = [
     Product(name: "Bej Salaş Takım",
             image: "images1",
             description: " ",
             supplier: "Moda",
-            price: 500);
+            price: 500),
     Product(name: "Beyaz Kimono",
             image: "images2",
             description: " ",
             supplier: "Moda",
-            price: 500);
+            price: 450),
     Product(name: "Kargo Cep Pantolon",
             image: "images3",
             description: " ",
             supplier: "Sefamerve",
-            price: 500);
+            price: 699),
     Product(name: "Pudra Müslim Elbise",
             image: "images4",
             description: " ",
             supplier: "Zara",
-            price: 500);
+            price: 890),
     Product(name: "Yeşil Kadın Elbisesi",
             image: "images5",
             description: " ",
             supplier: "Sefamerve",
-            price: 500);
+            price: 670),
     Product(name: "Bağlamalı Elbise",
             image: "images6",
             description: " ",
             supplier: "Kırmızı",
-            price: 500);
+            price: 900),
+    ]
     
-}
 
