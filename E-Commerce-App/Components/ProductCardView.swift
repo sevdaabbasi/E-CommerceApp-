@@ -18,7 +18,8 @@ struct ProductCardView: View {
                 VStack(alignment: .leading){
                     Image(product.image)
                         .resizable()
-                        .frame(width: 175, height: 190)
+                    
+                        .frame(width: 165, height: 190)
                         .cornerRadius(12)
                     
                     Text(product.name)
