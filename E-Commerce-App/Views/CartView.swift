@@ -25,7 +25,10 @@ struct CartView: View {
                     Text("$\(cartManager.total).00")
                         .bold()
                 }
+                
                 .padding()
+                PaymentButton(action: {})
+                    .padding()
             }
         }
         .navigationTitle(Text("My Cart"))
