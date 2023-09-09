@@ -139,6 +139,7 @@
 				6D7499A72A8D086200736D44 /* HomePageView.swift */,
 				6D7499AB2A8D27E400736D44 /* CartView.swift */,
 				6D060A652A936BB500C989C0 /* ProductDetailsView.swift */,
+				6D3A7EB02A854AAB00F6CEAD /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,7 +172,6 @@
 				6D3A7EB22A854BE500F6CEAD /* Screens */,
 				6DD1F9402A810A0F0026BEE3 /* E_Commerce_AppApp.swift */,
 				6D117A122A86C78C00872A70 /* Models */,
-				6D3A7EB02A854AAB00F6CEAD /* LoginView.swift */,
 				6DD1F9442A810A110026BEE3 /* Assets.xcassets */,
 				6DD1F9462A810A110026BEE3 /* Preview Content */,
 				6D7499A22A8CED8D00736D44 /* CartManager.swift */,
